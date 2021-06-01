@@ -4,6 +4,8 @@
 # LaTeX table
 # Also prints probabilities of Est > 0 fro logging purposes.
 #
+# Author: Y.H. Khoe
+# 
 # Arguments
 # brmsfit: a brmsfit object
 # predictor_to_label: a data frame containing predictor labels in the brmsfit 
@@ -20,6 +22,7 @@
 #           "{\\sc Target-Message Bias}", "{\\sc Meaning Accuracy}", 
 #           "{\\sc Syntactic Accuracy}", "{\\sc Input}")
 # )
+
 
 # Load libraries -----------------------------------------------------------####
 library(dplyr)
